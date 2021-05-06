@@ -39,6 +39,6 @@ Jiosaavn API
 
 ### API
 
-- [jiosaavn-alpha] (https://jiosaavn-alpha.vercel.app/)
+- [jiosaavn-alpha](https://jiosaavn-alpha.vercel.app/")
 
 ## Star this Repo if you Liked it ⭐⭐⭐
