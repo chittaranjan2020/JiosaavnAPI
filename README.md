@@ -32,10 +32,13 @@ Jiosaavn API
 {"result": "false"}
 ```
 
-
 ### Using this API:
 - [Musicder](https://github.com/cachecleanerjeet/Musicder "Musicder")
 - [Musicder Bot](https://t.me/musicder_bot "Musicder Bot")
 - [Saavn Downloader Extension](https://github.com/naqushab/saavn-downloader-extension "saavn-downloader-extension")
+
+### API
+
+- [jiosaavn-alpha] (https://jiosaavn-alpha.vercel.app/)
 
 ## Star this Repo if you Liked it ⭐⭐⭐
