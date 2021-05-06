@@ -4,8 +4,8 @@ module.exports = async(req, res) => {
     const reqLink = req.query.query
     res.setHeader("Access-Control-Allow-Origin", "*")
     res.setHeader("Cache-Control", "s-maxage=300, stale-while-revalidate")
-    res.setHeader("Close-Source", "https://github.com/cachecleanerjeet/JiosaavnAPI")
-    res.setHeader("Edited-By", "Tuhin Kanti Pal, https://github.com/Oshekher/")
+    res.setHeader("Open-Source", "https://github.com/Oshekher/JiosaavnAPI")
+    res.setHeader("Edited-By", "Saksham Shekher, https://github.com/Oshekher/")
 
     var songId = await getId(reqLink)
     if (songId == "error") res.json({ result: "false" })
@@ -47,7 +47,7 @@ module.exports = async(req, res) => {
                 perma_url: data.perma_url,
                 album_url: data.album_url,
                 release_date: data.release_date,
-                repo_url: "https://github.com/cachecleanerjeet/JiosaavnAPI"
+                repo_url: "https://github.com/Oshekher/JiosaavnAPI"
             })
         })
         .catch(function(error) {
