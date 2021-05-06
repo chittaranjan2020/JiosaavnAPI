@@ -5,7 +5,7 @@
     "main": "api/index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/cachecleanerjeet/JiosaavnAPI.git"
+        "url": "git+https://github.com/Oshekher/JiosaavnAPI.git"
     },
     "dependencies": {
         "axios": "^0.21.0"
@@ -17,7 +17,7 @@
     "author": "Tuhin Kanti Pal",
     "license": "Apache-2.0",
     "bugs": {
-        "url": "https://github.com/cachecleanerjeet/JiosaavnAPI/issues"
+        "url": "https://github.com/Oshekher/JiosaavnAPI/issues"
     },
-    "homepage": "https://github.com/cachecleanerjeet/JiosaavnAPI#readme"
+    "homepage": "https://github.com/Oshekher/JiosaavnAPI#readme"
 }
