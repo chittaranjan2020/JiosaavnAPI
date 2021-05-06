@@ -4,8 +4,8 @@ module.exports = async(req, res) => {
     const reqLink = req.query.query
     res.setHeader("Access-Control-Allow-Origin", "*")
     res.setHeader("Cache-Control", "s-maxage=300, stale-while-revalidate")
-    res.setHeader("Open-Source", "https://github.com/cachecleanerjeet/JiosaavnAPI")
-    res.setHeader("Made-By", "Tuhin Kanti Pal, https://github.com/cachecleanerjeet")
+    res.setHeader("Close-Source", "https://github.com/cachecleanerjeet/JiosaavnAPI")
+    res.setHeader("Edited-By", "Tuhin Kanti Pal, https://github.com/Oshekher/")
 
     var songId = await getId(reqLink)
     if (songId == "error") res.json({ result: "false" })
