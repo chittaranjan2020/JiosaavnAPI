@@ -4,8 +4,8 @@ module.exports = async(req, res) => {
     var reqId = req.query.id
     res.setHeader("Access-Control-Allow-Origin", "*")
     res.setHeader("Cache-Control", "s-maxage=300, stale-while-revalidate")
-    res.setHeader("Open-Source", "https://github.com/Oshekher/JiosaavnAPI")
-    res.setHeader("Edited-By", "Saksham Shekher, https://github.com/Oshekher/")
+    res.setHeader("Open-Source", "https://github.com/chittaranjan2020/JiosaavnAPI")
+    res.setHeader("Edited-By", "Chittaranjan Maharana, https://github.com/Chittaranjan2020/")
 
     axios({
         method: 'get',
@@ -17,7 +17,7 @@ module.exports = async(req, res) => {
 
             res.json({
                 lyrics: data.lyrics.replace(/"/gi, "'"),
-                repo_url: "https://github.com/Oshekher/JiosaavnAPI"
+                repo_url: "https://github.com/chittaranjan2020/JiosaavnAPI"
             })
 
         })
